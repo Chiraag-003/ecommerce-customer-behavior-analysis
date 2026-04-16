@@ -1,5 +1,4 @@
 📊 Customer Behavior & Revenue Analysis Dashboard
-
 📌 Objective
 To analyze customer behavior and revenue patterns in an e-commerce dataset and generate actionable business insights.
 
