@@ -25,41 +25,50 @@ Profit
 ⚠️ Note: A sampled dataset is used for GitHub due to size limitations.
 
 🔍 Analysis Performed
+
 1. Data Cleaning
 Handled missing values
 Standardized column names
 Ensured correct data types
+
 2. Revenue Analysis
 Total revenue calculation
 Revenue by category
 Revenue by region
+
 3. Customer Behavior Analysis
 Purchase frequency analysis
 Identification of high-demand products
 Detection of repeat purchase patterns
+
 4. Product-Level Insights
 Top revenue-generating products
 Comparison of high-demand vs high-revenue items
+
 5. Regional Analysis
 Region-wise sales performance
 Identification of top-performing regions
+
 📈 Key Insights
 A small group of products contributes to a large portion of total revenue
 High-demand products are not always the most profitable
 Certain regions consistently outperform others in sales
 Customer behavior shows clear preference patterns across categories
+
 💡 Business Recommendations
 Focus on high-revenue products to maximize profitability
 Optimize pricing for high-demand but low-revenue items
 Improve inventory planning based on demand trends
 Expand operations in high-performing regions
 Use customer behavior insights for targeted marketing campaigns
+
 🛠️ Tools & Technologies
 Python
 Pandas
 NumPy
 Matplotlib / Seaborn
 Jupyter Notebook
+
 📁 Project Structure
 ecommerce-customer-behavior-analysis/
 │
@@ -74,7 +83,9 @@ ecommerce-customer-behavior-analysis/
 │
 ├── Final_report.md
 └── README.md
+
 🧠 What This Project Demonstrates
+
 Data cleaning and preprocessing
 Exploratory Data Analysis (EDA)
 Business insight generation
