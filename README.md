@@ -47,60 +47,58 @@ Comparison of high-demand vs high-revenue items
 
 5. Regional Analysis
 Region-wise sales performance
+
 Identification of top-performing regions
 
 📈 Key Insights
-A small group of products contributes to a large portion of total revenue
-High-demand products are not always the most profitable
-Certain regions consistently outperform others in sales
-Customer behavior shows clear preference patterns across categories
+
+• A small group of products contributes to a large portion of total revenue
+• High-demand products are not always the most profitable
+• Certain regions consistently outperform others in sales
+• Customer behavior shows clear preference patterns across categories
 
 💡 Business Recommendations
-Focus on high-revenue products to maximize profitability
-Optimize pricing for high-demand but low-revenue items
-Improve inventory planning based on demand trends
-Expand operations in high-performing regions
+• Focus on high-revenue products to maximize profitability
+• Optimize pricing for high-demand but low-revenue items
+• Improve inventory planning based on demand trends
+• Expand operations in high-performing regions
 Use customer behavior insights for targeted marketing campaigns
 
 🛠️ Tools & Technologies
-Python
-Pandas
-NumPy
-Matplotlib / Seaborn
-Jupyter Notebook
+• Python
+• Pandas
+• NumPy
+• Matplotlib / Seaborn
+• Jupyter Notebook
 
-📁 Project Structure
 ecommerce-customer-behavior-analysis/
 │
 ├── data/
 │   └── sample_data.csv
-
 │
 ├── notebooks/
 │   └── ecommerce_analysis.ipynb
-
 │
 ├── images/
-│
-└── dashboard.png
-
+│   └── dashboard.png
 │
 ├── Final_report.md
 └── README.md
 
 🧠 What This Project Demonstrates
 
-Data cleaning and preprocessing
-Exploratory Data Analysis (EDA)
-Business insight generation
-Data storytelling for decision-making
+• Data cleaning and preprocessing
+• Exploratory Data Analysis (EDA)
+• Business insight generation
+• Data storytelling for decision-making
+
 🏁 Conclusion
 
 This project highlights how e-commerce data can be used to:
 
-Understand customer behavior
-Identify revenue drivers
-Support data-driven business strategies
+• Understand customer behavior
+• Identify revenue drivers
+• Support data-driven business strategies
 
 It demonstrates strong data analysis and business thinking skills, making it highly relevant for Data Analyst roles.
 
