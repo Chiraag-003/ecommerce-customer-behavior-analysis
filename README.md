@@ -1,113 +1,94 @@
- 📊 Customer Revenue & Behavior Analysis Dashboard
+📊 E-commerce Customer Behavior & Revenue Analysis
+🚀 Project Overview
+
+This project focuses on analyzing e-commerce transaction data to uncover customer purchasing behavior, product demand patterns, and revenue drivers.
+
+The goal is to transform raw transactional data into actionable business insights that can support decision-making in pricing, marketing, and inventory planning.
 
 🎯 Objective
-To analyze customer purchasing patterns and identify key revenue drivers in an e-commerce dataset, enabling data-driven business decisions.
-
-👉 This project helps businesses identify revenue drivers and optimize product strategy for better profitability.
-
-📊 Dashboard Preview
-
-![Dashboard](images/dashboard.png)
-
-🎯 Business Questions
-
-1. Which products contribute the most to total revenue?
-2. Which regions drive the highest sales performance?
-3. What are the characteristics of high-demand products?
-4. Which products show strong repeat purchase patterns?
-5. Where is revenue being lost despite high demand?
-
-📊 Key Metrics
-
-• Total Revenue: ₹X  
-• Total Orders: X  
-• Top Category: Electronics (X%)  
-• Top Region: West (X%)  
-• Top Product: [Product Name]  
-
-🔄 Workflow
-
-1. Data Cleaning & Preprocessing  
-2. Exploratory Data Analysis (EDA)  
-3. Business Insights Generation  
-4. Dashboard Visualization (Power BI)  
-5. Recommendations for decision-making  
-
-🧾 Dataset Overview
+Understand customer purchase behavior
+Identify high-demand and high-revenue products
+Analyze revenue distribution across categories and regions
+Generate business insights for strategic decisions
+🧾 Dataset Description
 
 The dataset contains transaction-level data including:
 
-- Order Date  
-- Product Name  
-- Category  
-- Region  
-- Quantity  
-- Sales  
-- Profit  
+Product Name
+Category
+Region
+Quantity
+Sales
+Profit
 
- 🔍 Analysis Performed
+⚠️ Note: A sampled dataset is used for GitHub due to size limitations.
 
- 1. Repeat Purchase Analysis
-- Identified frequently purchased product-region combinations  
-- Highlighted patterns indicating customer preferences  
-
- 2. Purchase Frequency
-- Measured total quantity sold per product  
-- Identified high-demand products  
-
-3. Revenue Analysis
-- Top revenue-generating products  
-- Revenue contribution by category  
-- Regional sales performance  
-
- 📈 Key Insights
-
-• A small group of products contributes the majority of total revenue (Pareto effect)  
-• High-demand products do not always generate high revenue, indicating pricing inefficiencies  
-• West region contributes the highest share of total revenue  
-• Certain product-region combinations show strong repeat purchase behavior  
-• Revenue distribution varies significantly across categories  
-
+🔍 Analysis Performed
+1. Data Cleaning
+Handled missing values
+Standardized column names
+Ensured correct data types
+2. Revenue Analysis
+Total revenue calculation
+Revenue by category
+Revenue by region
+3. Customer Behavior Analysis
+Purchase frequency analysis
+Identification of high-demand products
+Detection of repeat purchase patterns
+4. Product-Level Insights
+Top revenue-generating products
+Comparison of high-demand vs high-revenue items
+5. Regional Analysis
+Region-wise sales performance
+Identification of top-performing regions
+📈 Key Insights
+A small group of products contributes to a large portion of total revenue
+High-demand products are not always the most profitable
+Certain regions consistently outperform others in sales
+Customer behavior shows clear preference patterns across categories
 💡 Business Recommendations
-
-• Focus marketing and inventory on top 20% revenue-driving products  
-• Optimize pricing for high-demand but low-revenue products  
-• Expand operations in high-performing regions like West  
-• Use repeat purchase insights for targeted marketing campaigns  
-• Improve inventory planning using demand trends  
-
-🤖 Optional ML Extension
-
-A simple classification model can be built to identify high-revenue products using:
-
-- Features: Quantity, Category, Region  
-- Model: Random Forest  
-- Objective: Predict high-value products  
-
+Focus on high-revenue products to maximize profitability
+Optimize pricing for high-demand but low-revenue items
+Improve inventory planning based on demand trends
+Expand operations in high-performing regions
+Use customer behavior insights for targeted marketing campaigns
 🛠️ Tools & Technologies
-
-- Python (Pandas, Matplotlib)  
-- Power BI  
-- Jupyter Notebook  
-
+Python
+Pandas
+NumPy
+Matplotlib / Seaborn
+Jupyter Notebook
 📁 Project Structure
-
 ecommerce-customer-behavior-analysis/
-│  
-├── data/                # Dataset used for analysis  
-├── notebooks/           # Jupyter notebooks (EDA & analysis)  
-├── images/              # Dashboard and visualizations  
-├── README.md            # Project documentation  
-└── final_report.md      # Detailed report  
+│
+├── data/
+│   └── sample_data.csv
+│
+├── notebooks/
+│   └── ecommerce_analysis.ipynb
+│
+├── images/
+│   └── dashboard.png
+│
+├── Final_report.md
+└── README.md
+🧠 What This Project Demonstrates
+Data cleaning and preprocessing
+Exploratory Data Analysis (EDA)
+Business insight generation
+Data storytelling for decision-making
+🏁 Conclusion
 
-🚀 Conclusion
+This project highlights how e-commerce data can be used to:
 
-This project demonstrates how raw transactional data can be transformed into actionable insights that help businesses:
+Understand customer behavior
+Identify revenue drivers
+Support data-driven business strategies
 
-- Increase revenue  
-- Improve customer targeting  
-- Optimize product strategy  
+It demonstrates strong data analysis and business thinking skills, making it highly relevant for Data Analyst roles.
 
-⚠️ Note
+👤 Author
 
-The original dataset was large; a sample dataset is included for reproducibility.
+Chiraag S
+Data Science Enthusiast
