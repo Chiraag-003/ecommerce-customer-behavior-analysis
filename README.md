@@ -74,12 +74,16 @@ ecommerce-customer-behavior-analysis/
 │
 ├── data/
 │   └── sample_data.csv
+
 │
 ├── notebooks/
 │   └── ecommerce_analysis.ipynb
+
 │
 ├── images/
-│   └── dashboard.png
+│
+└── dashboard.png
+
 │
 ├── Final_report.md
 └── README.md
